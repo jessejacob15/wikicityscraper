@@ -1,6 +1,6 @@
 # Wikipedia city scraper
 
-This project is a python program that scrapes a  [wikipedia](https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population) article for data on the top 10 cities in the United States.  
+This project is a python program that scrapes a  [wikipedia](https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population) article for data on the top cities in the United States.  
 
 ### Prerequisites
 
