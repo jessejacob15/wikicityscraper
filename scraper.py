@@ -55,8 +55,13 @@ la = table.find_all('td')                                                       
 
 i = 0                                                                                               #i and j loop variables where j can be changed for ammount of states to scrape, 
 j =  int(input("please input the number of cities to collect data on? (30 maximum): "))                  # i is to control the ammount of data scraped, right now it takes all feilds from wiki table for each city
-print("fetching data on the top " +  str(j) + " cities...")
 all_city_info = [] #superlist of all cities data lists
+
+while (j > 30 or j < 0):
+    j = int(input("please enter number between 0 and 30: "))
+            
+print("fetching data on the top " +  str(j) + " cities...")
+
 
 for k in range (j):
     city_info = []
